@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National Criminal Record</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="Parent-div div-display">
+    <div class="header-div">
+      <div class="logo-div">
+        <img class="logo-img-tag" src="Sindh_Police_Logo_png.png" alt="Sindh Police Logo">
+      </div>
+      <div class="heading-div div-display">
+        <h1>
+          National Criminal Record
+        </h1>
+      </div>
+    </div>
+
+    <div class="main-div">
+      <div class="detail-div">
+        <input class="form_input" type="text" name="" id="UserIdNumber" placeholder="National ID Number">
+        <button type="submit" name="submit" onclick="fetchData()">Verify</button>
+        <p class="form_input" id="form_input-First"></p>
+        <p class="form_input" id="form_input-last"></p>
+        <p class="form_input" id="form_input_error"></p>
+        <!-- <button type="submit" name="submit'">Criminal Record</button> -->
+      </div>
+      <div class="image-div div-display">
+        <div id="user_image">
+        </div>
+        <div id="searching_record">Record Searching...</div>
+      </div>
+    </div>
+    <div class="footer-div">
+    </div>
+  </div>
+  <script src="style.js"></script>
+</body>
+</html>
